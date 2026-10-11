@@ -1,5 +1,5 @@
-# 원천 데이터는 저장소에 올리지 않음
+# 모델에 쓴 패널 데이터(data/ 안의 zip)만 저장소에 포함
 *.zip
 *.csv.gz
-data/
+!data/*.zip
 .ipynb_checkpoints/
